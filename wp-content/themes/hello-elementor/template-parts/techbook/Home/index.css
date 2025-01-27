@@ -1,0 +1,1223 @@
+
+.container-boxed {
+    max-width: 1505px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+.container-fullwidth {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+.container-fullwidth1 {
+    margin: 50px 0px;
+    width: 100%;
+    max-width: 1920px;
+    background: linear-gradient(180deg, #157FFF 0%, #1E00AE 100%);
+}
+
+.container-fullwidth2 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    background: #EEF6FF;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: -30px;
+}
+
+
+.tab.active {
+    background-color: #2700E1;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.tab {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    background-color: #1A0097;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sidebar h4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.5px;
+}
+
+.sidebar h3 span a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sidebar h3 span a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.publisher-list li,
+.topics-list li,
+.collections-list li {
+    margin-bottom: 10px;
+}
+
+
+.publisher-list li a:hover,
+.topics-list li a:hover,
+.collections-list li a:hover {
+    background-color: #1d397b;
+}
+
+.letter {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Cấu trúc Flexbox cho hai cột */
+.publisher-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Cột bên trái: Chữ cái (10%) */
+.letters-column {
+    width: 10%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letters-list {
+    list-style: none;
+    padding: 0;
+}
+
+.letters-list li {
+    margin-bottom: 10px;
+}
+
+.letters-list li a {
+    background-color: #0044cc;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.letters-list li a.active {
+    background-color: #157FFF;
+    color: white;
+}
+
+/* Cột bên phải: Chữ và icon (90%) */
+.publishers-column {
+    width: 90%;
+}
+
+.publishers-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publishers-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-bottom: 1px dashed #5640c2;
+}
+
+.publishers-list li:hover {
+    background-color: #1d397b;
+}
+
+.publishers-list li a {
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.arrow {
+    color: white;
+    font-size: 20px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.5px;
+}
+.view-more {
+    display: flex;
+    align-items: center;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.topics-list li , .collections-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+    border-bottom: 1px dashed #5640c2;
+}
+.topics-list a , .collections-list a{
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;    
+}
+.thanhngang {
+    border: 3px solid #1A0097;
+    width: calc(100% + 10%);
+    margin-left: -5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #1E00AE; 
+    padding: 20px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 1265px;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.featured-section {
+    margin-bottom: 40px;
+}
+
+.featured-section h2 {
+   
+    margin: 20px 0px;
+    font-family: Ford Antenna;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.featured-section a{
+
+    font-family: Ford Antenna;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: right;
+color: #2C2C2C;
+text-decoration: none;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Container của slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px; 
+}
+
+/* Các hình ảnh slide */
+.slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+    width: 100%; 
+}
+
+.slide img {
+    width: 100%; 
+    height: auto;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #0091ff;
+}
+
+
+.standard-tabs {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tab-item {
+    background-color: #EEF6FF;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #1E00AE;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    justify-content: flex-end;
+    gap: 5px;
+    border: 1px solid #C7E0FF;
+}
+.tab-item .icon2 {
+    display: none;
+}
+
+.tab-item.active .icon1 {
+    display: none; /* Ẩn icon 1 khi được chọn */
+}
+
+.tab-item.active .icon2 {
+    display: inline; /* Hiển thị icon 2 khi được chọn */
+}
+
+.tab-item img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Khoảng cách giữa icon và text */
+}
+
+.tab-item.active {
+    background-color: #1e3a8a; /* Màu nền khi được chọn */
+    color: white;
+
+}
+
+
+.tab-item:hover {
+    background-color: #bcdcff;
+}
+
+.tab-item:focus {
+    outline: none;
+}
+
+.standard-tabs a {
+    color: #2700e1;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.carousel1 ,.carousel1-book{
+    position: relative;
+    width: 95%; 
+    margin: 0 auto; 
+    padding-bottom: 50px;
+}
+
+.product-slider ,.product-slider1 , .product-slider2, .product-slider3, .product-slider4,.product-slider-book {
+    display: flex;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.product-list .product-item-publisher  ,.product-list3 .product-item , .product-list4 .product-item-publisher , .product-list-book .product-item {
+    flex: 0 0 231px;
+}
+.carousel1 .prev-btn , .carousel1-book .prev-btn{
+    margin-left: -70px;
+}
+.carousel1 .next-btn ,.carousel1-book .next-btn{
+    margin-right: -70px;
+}
+
+.product-list , .product-list1 ,  .product-list2 ,  .product-list3 ,  .product-list4 ,.product-list-book{
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Thêm hiệu ứng chuyển động mượt */
+    gap: 10px; /* Khoảng cách giữa các sản phẩm */
+}
+
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev-btn {
+    left: 0;
+    background-color: #fff;
+    color: #2C2C2C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-left: -10px;
+}
+
+.next-btn  {
+    right: 0;
+    background-color: #fff;
+    color: #2C2C2C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-left: -10px;
+}
+
+
+
+
+
+
+
+/* css đoạn dưới */
+.title1 {
+    font-family: Ford Antenna;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.buton1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#Standards1 {
+    background-color: #2700E1;
+    color: #fff;
+    padding: 7px 30px 7px 30px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 45px;
+}
+#Books1 {
+    color: #fff;
+    padding: 7px 30px 7px 30px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 45px;
+}
+.buton1 button.active {
+    background-color: #1E00AE;
+    color: #fff;
+}
+
+.buton1 button:hover {
+    background-color: #157FFF;
+    color: #fff;
+}
+
+.content-section {
+    display: none; /* All content sections hidden by default */
+}
+
+/* phần 3 */
+
+.next-btn {
+    right: 0;
+    background-color: #fff;
+    color: #2C2C2C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn {
+    background: none; 
+    border: none;
+    color: #2C2C2C; 
+    cursor: pointer; 
+}
+.filter-buttons {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.special-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title2 {
+    font-family: Ford Antenna;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 0 20px;
+}
+
+.filter-btn.active {
+    color: #1E00AE;
+}
+
+.filter-btn:hover {
+    color: #1E00AE; 
+    background-color: #fff;
+}
+
+.filter-btn:hover , .filter-btn:hover , .filter-btn:active ,.filter-btn:active{
+    background-color: #fff;
+}
+
+
+
+.product-display {
+    display: grid;
+    grid-template-columns: 0.9fr 1fr 0.9fr;
+    margin-bottom: 30px;
+}
+
+.left-section, .right-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
+
+.center-section {
+    display: flex;
+    justify-content: center; /* Center the main product */
+    align-items: center;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.product-category1 {
+    padding: 30px 0px;
+    color: #157FFF;
+}
+.product-image-center {
+    margin: 30px 130px;
+    text-align: center;
+    max-width: 250px;
+    height: 342px;
+}
+.product-title1 {
+    font-family: Ford Antenna;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2c2c2c;
+}
+.product-group1 {
+    font-family: Ford Antenna;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #7E7E7E;
+}
+
+.product-price1 {
+    font-family: Ford Antenna;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.product-info {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+/* Style click added button wishlist */
+.btn-wishlist svg {
+    margin-right: 3px;
+}
+.btn-wishlist:hover svg path,
+.btn-wishlist:hover svg {
+    transition: all .3s;
+}
+
+.btn-wishlist:hover svg path,
+.btn-wishlist.added svg path {
+    stroke: white; 
+}
+
+button.btn-wishlist:hover,
+button.btn-wishlist:active,
+button.btn-wishlist:focus,
+button.btn-wishlist.added {
+    background-color: #1E00AE !important;
+    color: #fff !important;
+}
+
+.filter-btn:focus{
+    background-color: #fff;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btn-wishlist {
+    display: flex;
+    gap: 5px;
+    color: #1E00AE;
+    border: 1.3px solid #1E00AE;
+    border-radius: 5px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 185px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.btn-cart {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    border: 1.3px solid #1E00AE;
+    border-radius: 5px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #1E00AE;
+    width: 185px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+
+/* <!-- Phần 4 --> */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+/* Each banner item */
+.banner-item {
+    position: relative;
+    width: 32%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px;
+   
+
+}
+
+.banner1 {
+    background-color: #ff6f61;
+}
+
+.banner2 {
+    background-color: #007bff;
+}
+
+.banner3 {
+    background-color: #fcbf49;
+}
+
+.banner-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.view-more {
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.banner-image {
+    position: absolute;
+    right: 10px;
+    height: auto;
+}
+
+
+.banner-item h2 {
+    margin-bottom: 10px;
+    font-family: Ford Antenna;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+
+/* <!-- Phần 5 --> */
+.thanh-ngang{
+    padding: 50px;
+}
+.top-sell-book , .top-sell-standards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anhphu {
+    width: 20%;
+}
+
+.anhphu-banner {
+    width: 236px;
+    height: 387px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.san-pham-top-sell , .san-pham-top-standards {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+.custom-carousel {
+    position: relative;
+    width: 100%;
+}
+
+.custom-product-slider {
+    overflow: hidden; 
+}
+
+.custom-product-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 10px; 
+}
+
+.custom-product-item {
+    flex: 0 0 calc(20% - 10px); 
+    box-sizing: border-box;
+}
+
+.custom-prev-btn, .custom-next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF2E00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.custom-prev-btn {
+    left: 10px; 
+}
+
+.custom-next-btn {
+    right: 10px; 
+}
+
+/* CSS để đưa loading ra giữa */
+#loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    z-index: 9999; 
+}
+
+#loading-container i {
+    font-size: 80px; 
+    color: #1e00ae; 
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* reponsive */
+
+
+.drag-handle,
+.overlay {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -280px;
+        width: 280px;
+        height: 100%;
+        transition: left 0.3s ease;
+        border-radius: 0 10px 10px 0;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+    
+    .drag-handle {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        left: -12px;
+        transform: translateY(-50%);
+        width: 35px;
+        height: 60px;
+        background-color: #EBEBEB;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .overlay {
+        display: none; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+    
+    .sidebar.active {
+        left: 0;
+    }
+
+    .sidebar.active ~ .overlay {
+        display: block;
+    }
+
+    body.sidebar-open {
+        overflow: hidden;
+    }
+    
+
+
+    .main-content {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1800px) {
+    .carousel1 .next-btn ,.carousel1-book .next-btn  {
+        margin-right: 0px;
+        right: 0;
+        background-color:#dadada ;
+    }
+    .carousel1 .prev-btn , .carousel1-book .prev-btn{
+        margin-left: -25px;
+        left: 0;
+        background-color:#dadada ;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .product-display {
+        display: grid;   
+         grid-template-columns: none; 
+        margin-bottom: 30px;
+    }
+
+    .left-section, .right-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+        padding: 20px;
+    }
+
+    .product-card {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .top-sell-book, .top-sell-standards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-section .product-item , .right-section .product-item{
+        text-align: center;
+    }
+    .san-pham-top-sell, .san-pham-top-standards {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0px;
+        padding: 20px;
+    }
+    .anhphu {
+         width: 236px; 
+         margin-bottom: 20px;
+    }
+    .banner-item {
+        width: 482px;
+        margin-right: 20px;
+    }
+
+   .left-section a.product-link ,.right-section a.product-link{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .banner-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0px;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 850px) {
+    .left-section, .right-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .banner-item {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .featured-section h2 ,.title2 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .featured-section a {
+        font-size: 12px;
+    }
+    .featured-section {
+        margin-bottom: 0px;
+    }
+    .tab-item {
+        font-size: 12px;
+    }
+    .icon2 ,.icon1{
+        width: 18px;
+    }
+    .standard-tabs a {
+        font-size: 12px;
+    }
+    .product-list, .product-list1, .product-list2, .product-list3, .product-list4, .product-list-book {
+        gap: 5px;
+    }
+     .product-slider1, .product-slider2 {
+        margin-left: -15px;
+    }
+
+    .btn-wishlist ,.btn-cart{
+        font-size: 12px;
+        width: 130px;
+        height: 40px;
+    }
+    .product-info {
+        font-size: 12px;
+    }
+    .product-price1 ,.product-title1 {
+        font-size: 20px;
+    }
+    .product-category1 {
+        padding: 18px 0px;
+        font-size: 14px;
+    }
+    .product-image-center {
+        max-width: 200px;
+        height: 310px;
+    }
+    .filter-btn{
+        font-size: 12px;
+    }
+    .icon-text,.sidebar h4  {
+        gap: 5px;
+        font-size: 14px;
+        line-height: 23.5px;
+        margin-left: -20px;
+    }
+    .sidebar h3 span a {
+        font-size: 12px;
+    }
+    .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .publishers-list li a {
+        font-size: 12px;
+    }
+    .arrow {
+        margin-right: -20px;
+    }
+    .topics-list a, .collections-list a {
+        font-size: 12px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1550px) {
+    .product-image-center {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 217px;
+        height: 342px;
+        display: flex;
+    }
+}
+
+
+
+
+
+
+

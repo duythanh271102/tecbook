@@ -1,0 +1,891 @@
+.container-boxed {
+    max-width: 1505px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+.container-fullwidth {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+.product-detail {
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.book-info h1 {
+    font-size: 24px;
+}
+
+.book-info p {
+    font-size: 16px;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tab-link {
+    padding: 10px 50px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #1E00AE;
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #1E00AE;
+}
+
+.tab-link.active {
+    background-color: #1E00AE;
+    color: #fff;
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.book-detail-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.book-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-image-container .book-image {
+    width: 305px !important;
+    height: 405px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.book-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#book-standard-by,
+#book-published-date,
+#book-status,
+#book-abstract {
+    font-family: "Ford Antenna", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+#book-status {
+    background: #D9F9F3;
+    padding: 5px;
+    border: 1px solid #18BEA0;
+    border-radius: 32px;
+}
+
+img.status-icon {
+    margin-bottom: -3px;
+}
+
+.book-icons a {
+    display: inline-block;
+    padding: 7px 35px 7px 35px;
+    gap: 10px !important;
+    border-radius: 8px;
+    border: 1px solid #157FFF;
+}
+
+.book-icons img {
+    width: 20px;
+    height: 18px;
+}
+
+.book-info h1 {
+    font-family: Ford Antenna;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.015em;
+    text-align: left;
+}
+
+.book-info h2 {
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+.book-info strong {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 19.6px;
+    text-align: left;
+}
+
+.book-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.abstract-text {
+    display: inline;
+}
+
+.view-more {
+    color: #007BFF;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+.status-label {
+    color: green;
+    font-weight: bold;
+}
+
+.versions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1400d3;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.versions h2 {
+    color: #fff;
+    margin: 0;
+    font-family: Ford Antenna;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.language-selector,
+.news-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector label,
+.news-selector label {
+    color: #fff;
+    margin-right: 10px;
+    width: 88px;
+}
+
+#language,
+#news {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.formats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    padding: 20px;
+    border: 1px solid #EDEDED;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.format-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.format-label,
+.availability,
+.price,
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.format-label {
+    width: 25%;
+    /* Đặt độ rộng cố định cho cột định dạng */
+    gap: 10px;
+    font-weight: bold;
+}
+
+.format-label img {
+    width: 70px;
+    height: 30px;
+}
+
+.availability {
+    width: 25%;
+    color: #2C2C2C;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price {
+    width: 15%;
+    justify-content: flex-start;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.price .discount {
+    color: #2C2C2C;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.price del {
+    color: #999;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.actions {
+    width: 35%;
+    /* Đặt độ rộng cố định cho cột hành động */
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.add-to-cart,
+.cannot-add-to-cart {
+    display: flex;
+    align-items: center;
+    gap: 8px !important;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #157FFF;
+    border: 1.3px solid #157FFF;
+    border-radius: 8px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cannot-add-to-cart {
+    opacity: 0.5;
+    background-color: transparent !important;
+    color: #157FFF !important;
+    cursor: auto !important;
+}
+
+button.contact-order {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 10px;
+    background-color: #157FFF;
+    color: #fff;
+    border: 1.3px solid #157FFF;
+    border-radius: 8px;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cart-icon {
+    width: 16px;
+    /* Kích thước của icon */
+    height: 16px;
+}
+
+
+.instant-purchase {
+    background-color: #28a745;
+}
+
+.contact-order {
+    background-color: #6c757d;
+}
+
+.add-to-cart:hover,
+.instant-purchase:hover,
+.contact-order:hover {
+    opacity: 0.8;
+}
+
+.dashed-line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed #dcdcdc;
+}
+
+strong.Formats1 {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #2C2C2C;
+}
+
+.book-details {
+    border-collapse: collapse;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #dcdcdc;
+    margin-bottom: 5px;
+}
+
+.label {
+    flex-basis: 30%;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #157FFF;
+}
+
+.value {
+    flex-basis: 70%;
+    color: #2C2C2C;
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.value a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.value a:hover {
+    text-decoration: underline;
+}
+
+.keyword {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.discount-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #fff;
+    border-radius: 5px;
+    margin: -10px;
+    height: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    background-color: #FF2E00;
+    margin-left: 5px;
+}
+.document-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+
+}
+
+.document-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.document-info {
+    flex: 1;
+}
+
+.document-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.document-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.document-meta span {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+.document-meta {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.status-label1 {
+    color: #2C2C2C !important;
+    background: #D9F9F3;
+    padding: 5px;
+    border: 1px solid #18BEA0;
+    border-radius: 32px;
+    font-family: "Ford Antenna", sans-serif;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 22px;
+}
+
+.status-label.withdrawn {
+    background-color: #FFDDD9;
+    color: #2C2C2C !important;
+    padding: 5px;
+    border: 1px solid #FF7160;
+    border-radius: 32px;
+    font-family: "Ford Antenna", sans-serif;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 22px;
+}
+
+.document-action img {
+    width: 17px;
+    height: 17px;
+}
+
+.document-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+h2.title {
+    font-family: Ford Antenna;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #2C2C2C;
+}
+
+p.content {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #2C2C2C;
+}
+
+.scope, .preface {
+    padding: 20px;
+}
+.butoon-book-icon1 p{
+    color: #157FFF;
+}
+
+.book-icons .butoon-book-icon1, .book-icons .butoon-book-icon2 {
+    gap: 10px !important;
+    border-radius: 8px;
+    border: 1px solid #157FFF;
+    width: 99px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.book-icons .butoon-book-icon1:hover .book-icons .butoon-book-icon2:hover{
+    background-color: #fff;
+} 
+.add_botton {
+    margin-bottom: 0px;
+}
+#book-info-container{
+    width: 65%;
+}
+
+/* responsive */
+@media screen and (max-width: 1510px){
+    .formats-container {
+        width: none; 
+        padding: 10px;
+        margin: 10px 20px;
+    }
+
+    .versions{
+        margin: 0 20px;
+    }
+    .tabs{
+        margin: 20px;
+    }
+    .book-details{
+        margin: 20px;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .add-to-cart {
+        gap: 0px;
+        padding: 10px 10px;
+    }
+
+    button.contact-order {
+        padding: 10px 5px;
+    }
+
+    .format-label {
+        width: 10%;
+    }
+    .actions {
+        width: 41%;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #book-info-container {
+        width: 100%;
+    }
+    button.contact-order ,.add-to-cart {
+        display: flex;
+    }
+    .discount-header {
+        width: 35px;
+        height: 18px;
+        font-size: 11px;
+        padding: 10px;
+    }
+    .format-label img {
+        width: 50px;
+        height: 30px;
+    }
+    .availability ,.price .discount ,.price del  {
+        font-size: 11px;
+    }
+    .price {
+        gap: 5px;
+        
+    }
+    .actions ,.format-label{
+        width: 80px;
+        
+    }
+    strong.Formats1 {
+        font-size: 12px;
+    }
+    .book-image-container .book-image {
+        width: 240px !important;
+        height: 366px;
+        margin-bottom: 20px;
+    }
+    .book-info h1 {
+        font-size: 20px;
+    }
+    .book-info h2 {
+        font-size: 14px;
+    }
+    .book-info strong ,#book-standard-by, #book-published-date, #book-status, #book-abstract{
+        font-size: 12px;
+    }
+    .view-more {
+        font-size: 12px;
+    }
+    .book-icons .butoon-book-icon1, .book-icons .butoon-book-icon2 {
+        width: 70px;
+        height: 35px;
+    }
+    .tab-link {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .tab-link.active ,.tab-link {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-left: 10px;
+    }
+    .versions h2 {
+        font-size: 16px;
+    }
+    .language-selector label, .news-selector label {
+        font-size: 12px;
+    }
+    #language, #news {
+        font-size: 12px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    .value {
+        font-size: 12px;
+    }
+    .keyword {
+        padding: 0px 5px;
+    }
+    .format-label, .availability,  .actions {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .book-detail-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .book-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .book-icons .butoon-book-icon1, .book-icons .butoon-book-icon2 {
+        width: 99px;
+        height: 40px;
+    }
+    .book-icons {
+        gap: 5px;
+    }
+    #book-status {
+        font-size: 11px !important;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .availability {
+        width: 30%;
+    }
+    .actions {
+        width: 10px;
+    }
+    
+
+    .price{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .discount-header {
+        margin-left: 0px;
+    }
+
+}
+
+
+body:not([class*=elementor-page-]) .site-main {
+    max-width: none;
+}
+
+
+.book-standard-by a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #157FFF;
+}
+
+
+.document-item:hover .document-action{
+    background-color: #1E00AE;
+}
+.document-item:hover .icon-card{
+    filter: invert(1);
+}
+
+.document-list a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.cart-item-quantity input {
+    position: relative;
+    width: 96px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.cart-item-quantity input:focus,
+.cart-item-quantity input:hover,
+.cart-item-quantity input:active,
+.cart-item-quantity input:focus-visible {
+    border-color: #EDEDED !important;
+    outline-color: #EDEDED !important;
+    outline-width: 0;
+}
+
+.cart-item-quantity input[type="number"]::-webkit-outer-spin-button,
+.cart-item-quantity input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+
+.icon-wishlist svg {
+    margin-right: 3px;
+}
+.icon-wishlist:hover svg path,
+.icon-wishlist:hover svg {
+    transition: all .3s;
+}
+
+.icon-wishlist:hover svg path,
+.icon-wishlist.added svg path {
+    stroke: white; 
+}
+
+button.icon-wishlist:hover,
+button.icon-wishlist:active,
+button.icon-wishlist:focus,
+button.icon-wishlist.added {
+    background-color: #157FFF !important;
+    color: #fff !important;
+}
+
+.title-home {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.6px;
+    text-align: left;
+    padding: 20px 0;
+}
+.container-boxed {
+    max-width: 1505px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+    padding-top: 20px;
+  }
+  .container-fullwidth {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto; 
+  }
+  #home-link {
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.add-to-cart.btn-cart-detail svg,
+.cannot-add-to-cart svg {
+    transform: translateY(-1px);
+}
+
+.add-to-cart.btn-cart-detail svg path,
+.cannot-add-to-cart svg path {
+    stroke: #157FFF;
+    stroke-width: 2px;
+    transition: all .3s;
+}
+
+.add-to-cart.btn-cart-detail:hover svg path{
+    stroke: #fff;
+}
+
+@media screen and (max-width: 1510px) {
+    .title-home {
+        padding: 20px 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .formats-container{
+        display: none;
+    }
+
+    .formats-container-moblie.product-item-book {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        border: 1px solid #EDEDED;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .format-right {
+        width: 50%;
+    }
+    .cart-item-quantity{
+        width: 50%;
+    }
+
+    .availability ,.actions{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) {
+    .formats-container-moblie {
+        display: none;
+    }
+}

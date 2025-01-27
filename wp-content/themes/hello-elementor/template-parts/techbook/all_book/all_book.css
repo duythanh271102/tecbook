@@ -1,0 +1,1147 @@
+.container-boxed {
+  max-width: 1505px;
+  margin: 0 auto; 
+  box-sizing: border-box; 
+  padding-top: 20px;
+}
+.container-fullwidth {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto; 
+}
+
+.title-home {
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.6px;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.container-boxed-banner {
+  text-align: center;
+  width: 1505px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: Ford Antenna;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.015em;
+}
+
+
+
+
+#advan-search {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  width: 853px;
+  margin: 0 auto;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.search-bar {
+  display: grid;
+  grid-template-columns: 1fr auto auto; 
+  gap: 0; 
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 100%;
+  width: 853px;
+  margin: 0 auto; 
+  height: 55px;
+}
+
+.search-bar .search-input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px 0 0 5px; 
+  outline: none;
+  font-size: 12px;
+}
+
+.search-bar .search-category-book {
+  padding: 10px;
+  background-color: #f9f9f9;
+  outline: none;
+  font-size: 12px;
+  border-left: none;
+  width: 200px;
+  border: 1px solid #EDEDED;
+  border-radius: 0px;
+  height: 50px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #4a8fff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  width: 58px;
+  border-radius: 0px 5px 5px 0px;
+  
+}
+
+.advanced-search {
+  color: #fff;
+}
+.advan-search .advanced-search:hover {
+  color: #fff !important;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  height: auto;
+}
+
+.sidebar {
+  width: 25%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
+
+/* 25% */
+
+.categories-book ,.categories-author,.categories-ics {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 730px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #F5F5F5;
+}
+
+.categories-author {
+  max-height: 545px;
+}
+
+.header-book , .header-author, .header-ics{
+  background-color: #1E00AE;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 8px 0px 37px 0px;
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 31.5px;
+  letter-spacing: 0.015em;
+}
+
+
+.category-list-book ,.category-list-author{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow-y: auto; 
+  max-height: 680px; 
+}
+
+.category-list-book li ,.category-list-author li{
+  padding: 15px 0;
+  border-bottom: 1px dotted #ddd;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #2C2C2C;
+}
+
+.category-list-book li:last-child ,.category-list-author li:last-child {
+  border-bottom: none;
+}
+.icon {
+  margin-right: 10px;
+  display: flex;
+}
+
+.ics-selection {
+  padding: 20px;
+}
+
+.year-selection {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.select2-selection {
+  padding: 10px !important;
+  border: 1px solid #EDEDED !important;
+  border-radius: 8px !important;
+  font-family: 'Ford Antenna' !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 19.6px !important;
+  text-align: left !important;
+  margin-bottom: 20px !important;
+  height: 40px !important;
+  width: 100% !important;
+  
+}
+.year-selection select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến chiều rộng */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  margin: -5px;
+}
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  display: none;
+}
+
+
+.language-selection ,.formats-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các checkbox */
+  padding: 20px;
+}
+
+.language-selection label,.formats-selection label {
+  display: flex;
+  align-items: center;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+  color: #2C2C2C;
+}
+
+.language-selection input[type="checkbox"] ,
+.formats-selection input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: #007bff; /* Tùy chọn màu xanh cho checkbox */
+}
+
+.language-selection label + label,
+.formats-selection label + label {
+  border-top: 1px dotted #ccc;
+  padding-top: 10px;
+}
+
+
+.filter-body {
+  padding: 20px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+/* Customize the slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+/* Dots on both sides */
+.slider-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.slider-container::before, 
+.slider-container::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+.filter-button {
+  background-color: #157FFF;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.filter-button:hover {
+  background-color: #0056b3;
+}
+
+.refresh-button{
+  
+  border: none;
+  font-size: 16px;
+  cursor: default;
+  border-radius: 5px;
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.refresh-button.disabled {
+  background-color: #d9d9d9; 
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.refresh-button.enabled {
+  background-color: #d9d9d9; 
+  color: #2C2C2C;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.filter-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+
+
+/* 75% */
+
+.container-title p {
+  font-family: Ford Antenna;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.flex2 {
+  display: flex;
+  gap: 10px;
+}
+.flex2 p{
+font-family: Ford Antenna;
+font-size: 14px;
+font-weight: 400;
+line-height: 36px;
+text-align: right;
+
+}
+
+.sort-newest select {
+  padding: 5px;
+  font-size: 14px;
+  width: auto;
+  border: none;
+  margin-top: 2px;
+}
+
+.thanh-doc {
+  border-right: 1px solid #2C2C2C;
+  padding-right: 10px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+
+.standard-tabs {
+  display: flex;
+  gap: 5px;
+  margin: 20px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tab-item {
+  background-color: #EEF6FF;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #1E00AE;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  justify-content: flex-end;
+  gap: 5px;
+  border: 1px solid #C7E0FF;
+}
+.tab-item .icon2 {
+  display: none;
+}
+
+.tab-item.active .icon1 {
+  display: none;
+}
+
+.tab-item.active .icon2 {
+  display: inline;
+}
+
+.tab-item img.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; 
+}
+
+.tab-item.active {
+  background-color: #1e3a8a; 
+  color: white;
+
+}
+
+
+.tab-item:hover {
+  background-color: #bcdcff;
+}
+
+.tab-item:focus {
+  outline: none;
+}
+
+.standard-tabs a {
+  color: #2700e1;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.custom-pagination a, .custom-pagination span , .btn-page {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  margin: 0 5px;
+  text-decoration: none;
+  border: 1px solid #EDEDED;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+
+.custom-pagination span , .custom-pagination a{
+  width: 42px;
+}
+
+.custom-pagination .current , .btn-page.active{
+  background-color: #2C2C2C;
+  color: #fff;
+  border-color: #2C2C2C;
+}
+
+.custom-pagination a , .btn-page {
+  background-color: #fff;
+  color: #000;
+}
+
+.custom-pagination a:hover , .btn-page:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-pagination .prev,
+.custom-pagination .next {
+  width: auto;
+  padding: 0 10px;
+  display: none; /*   kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk                                                         hi */ 
+}
+
+.custom-pagination .dots {
+  background-color: transparent;
+  border: none;
+  pointer-events: none;
+  width: auto;
+}
+
+
+
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.search-category-book {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.selected-option {
+  margin-right: 5px;
+}
+
+.select-arrow {
+  font-size: 12px;
+}
+
+.modal-book {
+  display: none;
+  position: absolute;
+  z-index: 1000; 
+  width: 100%;
+  max-width: 576px; 
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.modal-content-book {
+  padding: 20px;
+  text-align: center;
+      max-height: 300px;
+      overflow-y: auto; 
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.category-checkbox {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 0;
+  color: #2C2C2C;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.category-checkbox input {
+  margin-right: 10px;
+  width: 22px; 
+  height: 22px; 
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.category-checkbox label {
+  display: block;
+  word-break: break-word; 
+  flex-grow: 1; 
+}
+
+.modal-content-book h2{
+  color: #161619;
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+
+}
+
+.thanh-blue {
+  width: 89px;
+  border: 2px solid #157FFF;
+  margin-top: -10px;
+}
+.thanh-trang{
+  border: 1px solid #EDEDED;
+}
+.view-all {
+  display: block;
+  margin: 5px;
+  font-size: 14px;
+  color: #007bff;
+  border: none;
+}
+.view-all:hover {
+  text-decoration: underline;
+}
+.selected-option{
+  color: #2C2C2C;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+
+}
+
+#home-link {
+  text-decoration: none;
+  color: #2C2C2C;
+}
+
+
+
+/* reponsive */
+
+@media screen and (max-width: 690px){
+
+  .modal-book {
+      max-width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 1510px) {
+  .search-bar .search-category-book {
+      width: 160px;
+  }
+  .container-boxed-banner {
+      width: 97%;
+  }
+  .title-home {
+      padding: 20px 25px;
+  }
+  .sidebar{
+    padding-left: 20px;
+  }
+}
+
+
+
+.drag-handle,
+.overlay {
+  display: none;
+}
+
+@media screen and (max-width: 1224px) {
+  .sidebar {
+      position: fixed;
+      top: 0;
+      left: -300px;
+      width: 300px;
+      height: 100%;
+      transition: left 0.3s ease;
+      border-radius: 0 10px 10px 0;
+      z-index: 1000;
+      overflow-y: auto;
+      background-color: #fff;
+      padding: 10px;
+  }
+  
+  .drag-handle {
+      display: flex;
+      position: fixed;
+      top: 50%;
+      left: -12px;
+      transform: translateY(-50%);
+      width: 35px;
+      height: 60px;
+      background-color: #EBEBEB;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .overlay {
+      display: none; 
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+  }
+  
+  .sidebar.active {
+      left: 0;
+  }
+
+  .sidebar.active ~ .overlay {
+      display: block;
+  }
+
+  body.sidebar-open {
+      overflow: hidden;
+  }
+  
+
+
+  .main-content {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .product-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+  }
+
+  .product-list .product-item{
+      text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 900px){
+  .product-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+  }
+}
+@media screen and (max-width: 700px){
+  .product-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .modal-book {
+      max-width: 90%;
+      position: absolute !important;
+      left: 20px !important;
+      margin: 0px auto;
+      text-align: center;
+  }
+
+  .category-checkbox {
+      font-size: 12px;
+  }
+  .category-checkbox input {
+      width: 18px;
+      height: 18px;
+  }
+  .selected-option {
+      font-size: 12px;
+  }
+  .search-bar .search-category-book {
+      width: 137px;
+  }
+
+  .search-button {
+      width: 40px;    
+  }
+
+}
+
+@media screen and (max-width: 531px) {
+.flex2 p ,.sort-newest select{
+  font-size: 12px !important;
+}
+}
+.container-title p {
+  font-size: 16px ;
+}
+@media screen and (max-width: 459px) {
+  .thanh-doc {
+      height: 58px;
+  }
+  
+}
+
+@media screen and (max-width: 427px){
+  .main-content {
+      padding: 2px;
+  }
+} 
+  
+
+
+#std-title ,#author-text {
+  padding: 12px;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.6px;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 95%;
+  margin: 15px auto;
+}
+
+
+
+/* CSS để đưa loading ra giữa */
+#loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  z-index: 9999; 
+}
+
+#loading-container i {
+  font-size: 80px; 
+  color: #1e00ae; 
+  animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.product-item p,
+.product-item h3 {
+  user-select: text;
+}
+
+.product-image {
+  width: 200px;
+  height: 183px;
+  margin: 12px 0;
+  border-radius: 5px;
+  padding: 0px 30px;
+  background-color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover; 
+}
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color: #fff;
+  border-radius: 5px;
+  margin: -10px;
+  height: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.product-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #157FFF;
+  cursor: pointer;
+}
+
+.has-discount {
+  background-color: #FF2E00;
+}
+
+.no-discount {
+  background-color: transparent;
+}
+
+.product-category, .product-title, .product-group, .product-price {
+  min-height: 20px;
+}
+
+.product-category {
+  color: #157FFF;
+  margin-top: -10px;
+  font-family: Ford Antenna;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.product-title {
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.product-group {
+  font-family: Ford Antenna;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #7E7E7E;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-family: Ford Antenna;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 5px;
+}
+
+.product-icons-list-book{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: -10px;
+}
+.icon-list-book1{
+  display: none;
+  border-right: 1px solid #EDEDE8;
+  padding-right: 20px;
+}
+.icon-list-book2{
+  display: none;
+}
+
+.product-item:hover .icon-list-book1,
+.product-item:hover .icon-list-book2{
+  display: flex;
+}
+.product-item:hover .product-image {
+  clip-path: inset(0 0 20% 0); 
+  height: 183px;
+}
+
+.product-item:hover .product-category{
+  margin-top: -50px;
+}
+
+.product-item {
+  flex: 0 0 208px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #EDEDED;
+  text-decoration: none !important;
+  color: #2c2c2c;
+}
+
+.product-category,
+.product-title,
+.product-group,
+.product-price {
+    min-height: 20px;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    white-space: normal; 
+    line-height: 1.5; 
+    /* max-height: 4em;  */
+    visibility: visible; 
+}
+.product-group,
+.product-price{
+    min-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; 
+    line-height: 1.5; 
+    max-height: 4em; 
+    visibility: visible;  
+}
+
+.product-category:empty::before,
+.product-title:empty::before,
+.product-group:empty::before,
+.product-price:empty::before,
+.product-image:empty::before  {
+  content: '\00a0'; 
+  visibility: hidden; 
+}
+
+@media screen and (max-width: 440px){
+  .product-item {
+      flex: 0 0 160px !important; 
+      box-sizing: border-box;
+
+}
+
+  .product-image{
+      height: 140px !important;
+      padding: 0px 10px !important;
+      width: 120px !important;
+  }
+  .product-category {
+  font-size: 10px !important;
+  }
+  .product-title {
+ font-size: 12px !important;
+  }
+  .product-group{
+      font-size: 10px !important;
+  }
+  .product-price{
+      font-size: 12px !important;
+  }
+}
+
+.icon-wishlist-page .icon-wishlist svg,
+.icon-wishlist-page .icon-wishlist svg > path {
+    fill: #FF2E00;
+    stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-wishlist {
+    cursor: pointer; 
+}
+
+.product-icons-list-book .icon-wishlist:hover svg > path {
+    transition: all 0.3s ease;
+}
+
+.product-icons-list-book .icon-wishlist:hover svg > path {
+    stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-cart.added svg > path ,
+.product-icons-list-book .icon-wishlist.added svg > path {
+    stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-action {
+  cursor: pointer; 
+}
+
+.product-icons-list-book .icon-action:hover svg > path {
+  transition: all 0.3s ease;
+}
+
+.product-icons-list-book .icon-action:hover svg > path {
+  stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-cart.added svg > path ,
+.product-icons-list-book .icon-wishlist.added svg > path {
+  stroke: #FF2E00;
+}
+.product-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a.product-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3.product-title {
+  color: #2c2c2c;
+}
+
+#page-size-select-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+#page-size-select {
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  font-family: Ford Antenna;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.6px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+

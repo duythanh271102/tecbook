@@ -1,0 +1,216 @@
+.container-boxed {
+    max-width: 1505px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+    padding-top: 20px;
+}
+
+.container-fullwidth {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+
+.title-home {
+    font-family: Ford Antenna;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.6px;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+#home-link {
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.wishlist-page {
+    padding: 0px 0 100px;
+}
+
+.wishlist-page .main-content {
+    padding: 0 20px;
+}
+
+.wishlist-total {
+    font-family: Ford Antenna;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.wishlist-empty {
+    font-size: 15px;
+}
+
+.product-list-wishlist {
+    margin-top: 27px;
+}
+
+.product-list-wishlist .item-product-wishlist {
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    padding: 30px 80px 30px 30px;
+    margin-bottom: 25px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}   
+
+.product-list-wishlist .product-wrap {
+    display: flex;
+    column-gap: 20px;
+}
+
+.product-list-wishlist .product-wrap img {
+    max-width: 100px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+}
+
+.product-list-wishlist .product-category {
+    font-family: Ford Antenna;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #157FFF;
+}
+.product-list-wishlist .product-title {
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 4px 0 8px; 
+    color: #2C2C2C;
+}
+
+.product-list-wishlist .product-price {
+    font-weight: 600;
+    color: #2C2C2C;
+}
+
+.product-list-wishlist .product-title:hover {
+    text-decoration: underline;
+}
+
+.product-list-wishlist .product-author {
+    font-family: Ford Antenna;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color:  #7E7E7E;
+}
+
+.icon-wishlist-page {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    right: 48px;
+}
+
+.icon-wishlist.btn-remove-wishlist {
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.icon-wishlist-page .icon-wishlist svg,
+.icon-wishlist-page .icon-wishlist svg > path {
+    fill: #FF2E00;
+    stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-wishlist {
+    cursor: pointer; 
+}
+
+.product-icons-list-book .icon-wishlist:hover svg > path {
+    transition: all 0.3s ease;
+}
+
+.product-icons-list-book .icon-wishlist:hover svg > path {
+    stroke: #FF2E00;
+}
+
+.product-icons-list-book .icon-cart.added svg > path ,
+.product-icons-list-book .icon-wishlist.added svg > path {
+    stroke: #FF2E00;
+}
+
+/* reponsive */
+@media (max-width: 1199px) {
+    .wishlist-page .main-content {
+        padding: 0 15px;
+    }
+    .title-home {
+        padding: 15px 15px;
+    }
+}
+
+/* CSS để đưa loading ra giữa */
+#loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    z-index: 9999; 
+}
+
+#loading-container i {
+    font-size: 80px; 
+    color: #1e00ae; 
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 991px) {
+    .product-list-wishlist .item-product-wishlist {
+        padding: 20px 50px 20px 20px;
+        margin-bottom: 25px;
+    }
+
+    .icon-wishlist-page {
+        right: 20px;
+    }   
+}
+
+@media (max-width: 767px) {
+    .product-list-wishlist .item-product-wishlist {
+        padding: 15px 40px 15px 15px;
+        margin-bottom: 20px;
+    }
+
+    .icon-wishlist-page {
+        right: 15px;
+    }   
+}
+
+@media (max-width: 575px) {
+    .wishlist-page .product-list-wishlist .product-wrap {
+        display: block !important;
+    }
+
+    .wishlist-page .product-list-wishlist .product-wrap img {
+        margin-bottom: 10px;
+    }
+
+    .wishlist-page .icon-wishlist-page {
+        position: static;
+        transform: translateY(0);
+        margin-top: 15px;
+    }
+}

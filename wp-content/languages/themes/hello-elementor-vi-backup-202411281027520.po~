@@ -1,0 +1,733 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hello Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-27 07:19+0000\n"
+"PO-Revision-Date: 2024-11-28 09:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.6.2\n"
+"X-Domain: hello-elementor"
+
+#. 1: Breakpoint label, 2: Breakpoint value.
+#: includes/settings/settings-header.php:535
+#, php-format
+msgid "%1$s (> %2$dpx)"
+msgstr ""
+
+#. %s: HTML entity for arrow character.
+#: template-parts/archive.php:50 template-parts/search.php:56
+#, php-format
+msgid "%s Previous"
+msgstr ""
+
+#: includes/admin-functions.php:42
+#: includes/customizer/customizer-action-links.php:77
+#: includes/customizer/customizer-action-links.php:79
+msgid "Activate Elementor"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:89
+msgid "Activate header & footer experiment"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:504
+#: template-parts/techbook/Home/Home.php:620
+msgid "Add to wishlist"
+msgstr "Yêu thích"
+
+#: techbook_header.php:11 template-parts/techbook/all_book/all_book.php:106
+msgid "Advanced search"
+msgstr "Tìm kiếm nâng cao"
+
+#: includes/settings/settings-footer.php:156
+#: includes/settings/settings-header.php:141
+msgid "After"
+msgstr ""
+
+#: techbook_translate.php:6 template-parts/techbook/all_book/all_book.php:121
+msgid "All"
+msgstr "Tất cả"
+
+#: includes/settings/settings-footer.php:534
+msgid "All rights reserved"
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:146
+msgid "Author"
+msgstr ""
+"Tác giả\n"
+
+#: includes/settings/settings-footer.php:275
+#: includes/settings/settings-header.php:270
+msgid "Background"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:660
+#: template-parts/techbook/Home/Home.php:666
+#: template-parts/techbook/Home/Home.php:672
+msgid "Banner"
+msgstr "Ảnh"
+
+#: includes/settings/settings-footer.php:148
+#: includes/settings/settings-header.php:133
+msgid "Before"
+msgstr ""
+
+#: includes/settings/settings-footer.php:152
+#: includes/settings/settings-header.php:137
+msgid "Below"
+msgstr ""
+
+#: techbook_header.php:221 techbook_header.php:223 techbook_header.php:231
+msgid "Book"
+msgstr "Sách"
+
+#: techbook_header.php:15 template-parts/techbook/all_book/all_book.php:77
+#: template-parts/techbook/Home/Home.php:53
+#: template-parts/techbook/Home/Home.php:329
+#: template-parts/techbook/Home/Home.php:413
+#| msgid "Bookss"
+msgid "Books"
+msgstr ""
+"Sách\n"
+
+#: template-parts/techbook/all_book/all_book.php:117
+msgid "Books categories"
+msgstr "Danh mục sách"
+
+#: includes/settings/settings-footer.php:210
+#: includes/settings/settings-header.php:195
+msgid "Boxed"
+msgstr ""
+
+#: includes/settings/settings-header.php:546
+msgid "Breakpoint"
+msgstr ""
+
+#: includes/customizer-functions.php:62
+msgid ""
+"Build and customize every part of your website, including Theme Parts with "
+"Elementor Pro."
+msgstr ""
+
+#: includes/settings/settings-footer.php:126
+#: includes/settings/settings-header.php:111
+msgid "Centered"
+msgstr ""
+
+#: includes/settings/settings-footer.php:484
+#: includes/settings/settings-header.php:505
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr ""
+
+#: includes/settings/settings-footer.php:492
+#: includes/settings/settings-header.php:560
+msgid "Color"
+msgstr ""
+
+#. %s: Number of comments.
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%s Response"
+msgid_plural "%s Responses"
+msgstr[0] ""
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One Response"
+msgstr ""
+
+#: includes/settings/settings-footer.php:223
+#: includes/settings/settings-header.php:208
+msgid "Content Width"
+msgstr ""
+
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-footer.php:516
+msgid "Copyright"
+msgstr ""
+
+#: includes/settings/settings-footer.php:591
+msgid "Create a custom footer with multiple options"
+msgstr ""
+
+#: includes/settings/settings-footer.php:601
+msgid "Create a custom footer with the Theme Builder"
+msgstr ""
+
+#: includes/settings/settings-header.php:625
+msgid "Create a custom header with multiple options"
+msgstr ""
+
+#: includes/settings/settings-header.php:635
+msgid "Create a custom header with the Theme Builder"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:59
+#: includes/customizer/customizer-action-links.php:78
+msgid "Create cross-site header & footer using Elementor."
+msgstr ""
+
+#: includes/settings/settings-footer.php:604
+msgid "Create Footer"
+msgstr ""
+
+#: includes/settings/settings-header.php:638
+msgid "Create Header"
+msgstr ""
+
+#: includes/elementor-functions.php:223
+msgid ""
+"Customize and style the builtin Hello Theme’s cross-site header & footer "
+"from the Elementor \"Site Settings\" panel."
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:98
+msgid ""
+"Customize your cross-site header & footer from Elementor’s \"Site Settings\" "
+"panel."
+msgstr ""
+
+#: includes/customizer-functions.php:61
+msgid "Customize your entire website with Elementor Pro"
+msgstr ""
+
+#: includes/settings/settings-footer.php:130
+#: includes/settings/settings-header.php:115
+msgid "Default"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:88
+msgid ""
+"Design your cross-site header & footer from Elementor’s \"Site Settings\" "
+"panel."
+msgstr ""
+
+#: includes/settings/settings-header.php:518
+msgid "Dropdown"
+msgstr ""
+
+#: techbook_header.php:226
+msgid "Dropdown Icon"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:57
+#: includes/customizer/customizer-action-links.php:76
+#: includes/customizer/customizer-action-links.php:86
+#: includes/customizer/customizer-action-links.php:96
+msgid "Elementor"
+msgstr ""
+
+#: includes/settings/settings-footer.php:600
+#: includes/settings/settings-header.php:634
+msgid "Elementor Pro"
+msgstr ""
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr ""
+
+#: includes/admin-functions.php:137
+msgid "Explore Elementor Site Builder Plugin"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:241
+msgid "Featured Books"
+msgstr "Sách nổi bật"
+
+#: template-parts/techbook/Home/Home.php:164
+msgid "Featured Standards"
+msgstr "Tiêu chuẩn nổi bật"
+
+#: template-parts/techbook/all_book/all_book.php:257
+msgid "Filter by price"
+msgstr "Lọc theo giá"
+
+#: functions.php:31 includes/settings/settings-footer.php:44
+msgid "Footer"
+msgstr ""
+
+#: template-parts/dynamic-footer.php:48 template-parts/footer.php:21
+msgid "Footer menu"
+msgstr ""
+
+#: includes/settings/settings-footer.php:211
+#: includes/settings/settings-header.php:196
+msgid "Full Width"
+msgstr ""
+
+#: includes/admin-functions.php:132
+msgid "Get Elementor"
+msgstr ""
+
+#: includes/settings/settings-footer.php:590
+#: includes/settings/settings-header.php:624
+msgid "Get Elementor Pro"
+msgstr ""
+
+#: includes/settings/settings-footer.php:463
+#: includes/settings/settings-header.php:484
+#, php-format
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#. %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:316
+#: includes/settings/settings-header.php:318
+#, php-format
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr ""
+
+#. %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:431
+#: includes/settings/settings-header.php:445
+#, php-format
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's tagline"
+msgstr ""
+
+#. %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:375
+#: includes/settings/settings-header.php:365
+#: includes/settings/settings-header.php:382
+#, php-format
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title"
+msgstr ""
+
+#: includes/settings/settings-footer.php:476
+#: includes/settings/settings-header.php:497
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: functions.php:30 includes/settings/settings-header.php:45
+msgid "Header"
+msgstr ""
+
+#: includes/customizer-functions.php:18 includes/elementor-functions.php:219
+msgid "Header & Footer"
+msgstr ""
+
+#. Name of the theme
+msgid "Hello Elementor"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Hello Elementor is a lightweight and minimalist WordPress theme that was "
+"built specifically to work seamlessly with the Elementor site builder plugin."
+" The theme is free, open-source, and designed for users who want a flexible, "
+"easy-to-use, and customizable website. The theme, which is optimized for "
+"performance, provides a solid foundation for users to build their own unique "
+"designs using the Elementor drag-and-drop site builder. Its simplicity and "
+"flexibility make it a great choice for both beginners and experienced Web "
+"Creators."
+msgstr ""
+
+#: includes/elementor-functions.php:220
+msgid "Hello Theme"
+msgstr ""
+
+#: includes/settings/settings-footer.php:21
+msgid "Hello Theme Footer"
+msgstr ""
+
+#: includes/settings/settings-header.php:22
+msgid "Hello Theme Header"
+msgstr ""
+
+#: includes/settings-functions.php:18
+msgid "Hello Theme Settings"
+msgstr ""
+
+#: includes/settings/settings-footer.php:55
+#: includes/settings/settings-footer.php:67
+#: includes/settings/settings-footer.php:79
+#: includes/settings/settings-footer.php:91
+#: includes/settings/settings-header.php:56
+#: includes/settings/settings-header.php:67
+#: includes/settings/settings-header.php:78
+msgid "Hide"
+msgstr ""
+
+#: template-parts/dynamic-footer.php:34 template-parts/dynamic-header.php:40
+#: template-parts/header.php:30
+#: template-parts/techbook/all_book/all_book.php:77
+#: template-parts/techbook/all_publisher/all_publisher.php:54
+msgid "Home"
+msgstr "Trang chủ"
+
+#: includes/settings/settings-header.php:517
+msgid "Horizontal"
+msgstr ""
+
+#. Author URI of the theme
+msgid ""
+"https://elementor.com/?utm_source=wp-themes&utm_campaign=author-"
+"uri&utm_medium=wp-dash"
+msgstr ""
+
+#. URI of the theme
+msgid ""
+"https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-"
+"uri&utm_medium=wp-dash"
+msgstr ""
+
+#: includes/admin-functions.php:51
+#: includes/customizer/customizer-action-links.php:58
+#: includes/customizer/customizer-action-links.php:60
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/settings/settings-footer.php:122
+#: includes/settings/settings-header.php:107
+msgid "Inverted"
+msgstr ""
+
+#: template-parts/404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: template-parts/search.php:43
+msgid "It seems we can't find what you're looking for."
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:84
+#: template-parts/techbook/all_publisher/all_publisher.php:61
+msgid "Keyword"
+msgstr "Từ khóa"
+
+#: includes/settings/settings-footer.php:119
+#: includes/settings/settings-header.php:104
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor-functions.php:225
+msgid "Learn More"
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:289
+msgid "List of Publications"
+msgstr "Danh sách các sách"
+
+#: template-parts/techbook/Home/Home.php:63
+msgid "List of Publisher"
+msgstr "Nhà xuất bản"
+
+#: includes/settings/settings-footer.php:302
+#: includes/settings/settings-header.php:304
+msgid "Logo"
+msgstr ""
+
+#: includes/settings/settings-footer.php:313
+#: includes/settings/settings-header.php:315
+msgid "Logo Width"
+msgstr ""
+
+#: template-parts/dynamic-header.php:54 template-parts/header.php:43
+msgid "Main menu"
+msgstr ""
+
+#: template-parts/dynamic-header.php:65
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:444
+#: includes/settings/settings-footer.php:472
+#: includes/settings/settings-header.php:75
+#: includes/settings/settings-header.php:458
+#: includes/settings/settings-header.php:493
+msgid "Menu"
+msgstr ""
+
+#: includes/settings/settings-header.php:513
+msgid "Menu Layout"
+msgstr ""
+
+#: template-parts/dynamic-header.php:68
+msgid "Mobile menu"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:325
+msgid "New Arrivals"
+msgstr "Hàng mới về"
+
+#. %s: HTML entity for arrow character.
+#: template-parts/archive.php:54 template-parts/search.php:60
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:229
+#: template-parts/techbook/Home/Home.php:308
+#: template-parts/techbook/Home/Home.php:356
+#: template-parts/techbook/Home/Home.php:389
+#: template-parts/techbook/Home/Home.php:722
+#: template-parts/techbook/Home/Home.php:767
+msgid "No products available at the moment."
+msgstr "Không có sản phẩm nào có sẵn"
+
+#: includes/settings/settings-header.php:541
+msgid "None"
+msgstr ""
+
+#. %s: Link that opens the theme settings page.
+#: includes/settings/settings-footer.php:102
+#: includes/settings/settings-header.php:88
+#, php-format
+msgid ""
+"Note: Hiding all the elements, only hides them visually. To disable them "
+"completely go to <a href=\"%s\">Theme Settings</a> ."
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:339
+msgid "Number of products per page"
+msgstr "Số lượng SP 1 trang"
+
+#: includes/admin-functions.php:40
+msgid ""
+"Once you activate the plugin, you are only one click away from building an "
+"amazing website."
+msgstr ""
+
+#: includes/admin-functions.php:49
+msgid ""
+"Once you download and activate the plugin, you are only one click away from "
+"building an amazing website."
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:263
+msgid "Price"
+msgstr "Giá"
+
+#: template-parts/techbook/all_book/all_book.php:185
+msgid "Published year"
+msgstr "Năm xuất bản"
+
+#: template-parts/techbook/all_publisher/all_publisher.php:54
+msgid "Publisher"
+msgstr "Nhà xuất bản"
+
+#: template-parts/techbook/all_book/all_book.php:274
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: techbook_header.php:219 techbook_header.php:229
+msgid "Search book for title"
+msgstr "Tìm kiếm tên sách"
+
+#: template-parts/techbook/all_book/all_book.php:82
+msgid "Search Books"
+msgstr "Tìm kiếm sách"
+
+#: techbook_header.php:240
+msgid "Search Icon"
+msgstr ""
+
+#: template-parts/techbook/all_publisher/all_publisher.php:59
+msgid "Search publusher"
+msgstr "Tìm kiếm Nhà xuất bản"
+
+#: template-parts/search.php:17
+msgid "Search results for: "
+msgstr ""
+
+#: techbook_header.php:233
+msgid "Search standard for reference number"
+msgstr "Tìm kiếm tiêu chuẩn"
+
+#: techbook_translate.php:7
+msgid "Select Year"
+msgstr "Chọn năm"
+
+#: template-parts/techbook/all_book/all_book.php:190
+msgid "Select year"
+msgstr "Chọn năm"
+
+#: includes/settings/settings-footer.php:54
+#: includes/settings/settings-footer.php:66
+#: includes/settings/settings-footer.php:78
+#: includes/settings/settings-footer.php:90
+#: includes/settings/settings-header.php:55
+#: includes/settings/settings-header.php:66
+#: includes/settings/settings-header.php:77
+msgid "Show"
+msgstr ""
+
+#: includes/settings/settings-footer.php:249
+#: includes/settings/settings-header.php:234
+msgid "Side Margins"
+msgstr ""
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:288
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:283
+msgid "Site Logo"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:410
+msgid "Special Offer"
+msgstr "Khuyến mãi đặc biệt"
+
+#: techbook_header.php:222 techbook_header.php:235
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
+#: techbook_header.php:16 template-parts/techbook/Home/Home.php:49
+#: template-parts/techbook/Home/Home.php:328
+#: template-parts/techbook/Home/Home.php:412
+#| msgid "Standardss"
+msgid "Standards"
+msgstr ""
+"Tiêu chuẩn\n"
+
+#: includes/customizer/customizer-action-links.php:99
+msgid "Start Designing"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:97
+msgid "Style cross-site header & footer"
+msgstr ""
+
+#: includes/customizer/customizer-action-links.php:87
+msgid "Style using Elementor"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:99
+msgid "Subject"
+msgstr "Chủ thể"
+
+#: template-parts/book-detail.php:31 template-parts/publisher-detail.php:31
+#: template-parts/single.php:71 template-parts/standard-detail.php:31
+msgid "Tagged "
+msgstr ""
+
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:392
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:399
+msgid "Tagline"
+msgstr ""
+
+#: includes/settings/settings-footer.php:181
+#: includes/settings/settings-header.php:166
+msgid "Tagline Gap"
+msgstr ""
+
+#: includes/settings/settings-footer.php:145
+#: includes/settings/settings-header.php:130
+msgid "Tagline Position"
+msgstr ""
+
+#: template-parts/techbook/all_book/all_book.php:148
+msgid "Text"
+msgstr "Nhập"
+
+#: includes/settings/settings-footer.php:344
+#: includes/settings/settings-footer.php:402
+#: includes/settings/settings-footer.php:541
+#: includes/settings/settings-header.php:346
+#: includes/settings/settings-header.php:416
+msgid "Text Color"
+msgstr ""
+
+#: includes/admin-functions.php:135
+msgid "Thanks for installing the Hello Theme!"
+msgstr ""
+
+#: includes/admin-functions.php:33
+msgid ""
+"The Hello Theme is a lightweight starter theme that works perfectly with the "
+"Elementor award-winning site builder plugin."
+msgstr ""
+
+#: template-parts/404.php:16
+msgid "The page can&rsquo;t be found."
+msgstr ""
+
+#: includes/settings-functions.php:19
+msgid "Theme Settings"
+msgstr ""
+
+#: includes/settings/settings-footer.php:463
+#: includes/settings/settings-header.php:484
+msgid "There are no menus in your site."
+msgstr ""
+
+#: includes/settings/settings-footer.php:303
+#: includes/settings/settings-header.php:305
+msgid "Title"
+msgstr ""
+
+#: includes/settings/settings-header.php:574
+msgid "Toggle Color"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:691
+msgid "Top Seller Books"
+msgstr "Sách bán chạy"
+
+#: template-parts/techbook/Home/Home.php:735
+msgid "Top Seller Standards "
+msgstr "Tiêu chuẩn bán chạy"
+
+#: includes/settings/settings-footer.php:298
+#: includes/settings/settings-header.php:300
+msgid "Type"
+msgstr ""
+
+#: includes/settings/settings-footer.php:360
+#: includes/settings/settings-footer.php:417
+#: includes/settings/settings-footer.php:504
+#: includes/settings/settings-footer.php:556
+#: includes/settings/settings-header.php:362
+#: includes/settings/settings-header.php:431
+#: includes/settings/settings-header.php:589
+msgid "Typography"
+msgstr ""
+
+#: includes/settings/settings-footer.php:594
+#: includes/settings/settings-header.php:628
+msgid "Upgrade"
+msgstr ""
+
+#: includes/customizer-functions.php:63
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/settings/settings-footer.php:592
+#: includes/settings/settings-header.php:626
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr ""
+
+#: template-parts/techbook/Home/Home.php:66
+msgid "View more"
+msgstr "Xem thêm"
+
+#: includes/settings/settings-footer.php:208
+#: includes/settings/settings-header.php:193
+msgid "Width"
+msgstr ""
+
+#: includes/settings/settings-footer.php:602
+#: includes/settings/settings-header.php:636
+msgid ""
+"With the Theme Builder you can jump directly into each part of your site"
+msgstr ""
+
+#: includes/settings/settings-footer.php:453
+#: includes/settings/settings-header.php:474
+msgid "— Select a Menu —"
+msgstr ""

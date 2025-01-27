@@ -1,0 +1,399 @@
+#cartModal.modal {
+    max-width: 614px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none; 
+    z-index: 999; 
+}
+
+.modal {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 30%; 
+    height: 100%;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    padding: 0 20px 20px;
+    transform: translateX(100%); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal.active {
+    transform: translateX(0);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.empty-cart {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cart-item-image {
+    width: 120px;
+}
+
+.cart-item-image img {
+    width: 100%;
+    border: 1px solid #ebebeb;
+}
+
+.empty-cart p {
+    font-size: 18px;
+    color: #666;
+}
+
+.cart-items {
+    margin: 46px 0 0;
+    max-height: 450px;
+    overflow-y: auto; 
+}
+
+.cart-item {
+    display: flex;
+    column-gap: 25px;
+    padding: 0 30px 25px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.cart-item .btn-cart-remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.icon-cart-remove svg {
+    transition: all .3s;
+}
+
+.icon-cart-remove svg:hover {
+    transform: rotate(90deg);
+}
+
+a.cart-item {  
+    text-decoration: none;
+}
+
+.cart-item-details {
+    flex: 1;
+    max-width: 55%;
+}
+
+.cart-item-title {
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cart-item-category,
+.cart-item-group,
+.cart-item-description {
+    font-family: Ford Antenna;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+
+}
+.cart-item-quantity{
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.cart-item-category{
+    color: #157FFF;
+}
+.cart-item-description {
+    color: #7E7E7E;
+}
+
+.cart-item-discount {
+    color: red;
+    font-weight: bold;
+}
+
+.cart-total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-btn, .view-cart-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: 1px solid #1E00AE;
+    color: #1E00AE;
+}
+.checkout-btn{
+    color: #fff;
+    background-color: #1E00AE;
+}
+    
+/* Modal header styling */
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.title1-header {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cart-icon {
+    width: 20px; 
+    margin-right: 8px; 
+}
+
+.close-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.close-text {
+    color: #999;
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.5px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.close {
+    font-size: 30px;
+    cursor: pointer;
+    color: #999;
+    display: flex;
+    font-weight: 300;
+}
+.close1 {
+    font-size: 29px;
+}
+
+.cart-total p {
+    font-family: Ford Antenna;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.cart-total span {
+    font-family: Ford Antenna;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.cart-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content .cart-button .view-cart-btn,
+.modal-content .cart-button .checkout-btn {
+    height: 60px;
+    line-height: 40px;
+    transition: all .3s;
+}
+
+.modal-content .cart-button .view-cart-btn:hover {
+    background-color: #1E00AE;  
+    color: #fff;
+}
+
+.modal-content .cart-button .checkout-btn:hover {
+    background-color: #fff;  
+    color: #1E00AE; 
+    border-color: #1E00AE; 
+}   
+
+.header-cart {
+    cursor: pointer;
+    position: relative;
+}
+
+.header-cart svg {
+    width: 28px;
+    height: 26px;
+    fill: transparent !important;
+}
+
+.total-number-product {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #157FFF;
+    color: #fff;
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 400;
+    border-radius: 100%;
+}   
+
+a.cart-team:hover {
+    color: none;
+}
+
+.modal-content .cart-item-details p {
+    font-family: Ford Antenna;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.modal-content .cart-item-details .cart-item-cate {
+    height: 18px;
+    overflow: hidden;   
+    font-size: 12px;
+    line-height: 18px;
+    color: #157FFF;
+}
+    
+.modal-content .cart-item-details .cart-item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;  
+    color: #2C2C2C;
+}
+
+.modal-content .cart-item-details .cart-item-title:hover {
+    color: #157FFF;
+}
+
+.modal-content .cart-item-details .cart-item-author {
+    font-size: 12px;
+    line-height: 21px;
+    color: #7E7E7E;
+}
+
+.modal-content .cart-item-details .cart-item-quantity {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 0;
+    color: #2C2C2C;
+}   
+
+.cannot-add-to-cart {
+    
+}
+
+@media screen and (max-width: 1200px){
+    .modal {
+        width: 400px;
+    }
+    .cart-item {
+        padding: 15px 0px;
+    }
+    .cart-item-image {
+        width: 100px;
+        height: 150px;
+        margin-right: 10px;
+    }
+    .cart-item-category, .cart-item-group, .cart-item-description {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .cart-item-title ,.cart-item-quantity {
+        font-size: 12px;
+    }
+    .cart-total p {
+        font-size: 14px;
+    }
+    .cart-total span {
+        font-size: 16px;
+    }
+    .title1-header {
+        font-size: 16px;
+    }
+    .close-text {
+        font-size: 14px;
+    }
+    .close-section {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .modal {
+        width: 300px;
+    }
+}
+
+#loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    z-index: 9999; 
+}
+
+#loading-container i {
+    font-size: 80px; 
+    color: #1e00ae; 
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
